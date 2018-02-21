@@ -1,5 +1,5 @@
 <main class="student-list house">
-  <img src="<%= @house.logo %>" alt="<%= @house.name %> crest">
+  <img class="spinning" src="<%= @house.logo %>" alt="<%= @house.name %> crest">
   <section>
     <% @students.each do|student| %>
     <p>Name: <%= student.first_name %> <%= student.last_name %></p>
