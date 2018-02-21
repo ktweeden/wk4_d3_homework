@@ -1,16 +1,18 @@
-<form  action="/students" method="post">
-  <label for="first-name">First Name:</label>
-  <input type="text" name="first_name">
+<main class="new-student">
+  <form action="/students" method="post">
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first_name">
 
-  <label for="last-name">Last Name:</label>
-  <input type="text" name="last_name">
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="last_name">
 
-  <label for="house">House:</label>
-  <select id="house-select" name="house">
-    <% @houses.each do |house|%>
-    <option value="<%= house.id %>"><%= house.name %></option>
-    <% end %>
-  </select>
+    <label for="house">House:</label>
+    <select id="house-select" name="house">
+      <% @houses.each do |house|%>
+      <option value="<%= house.id %>"><%= house.name %></option>
+      <% end %>
+    </select>
 
-  <input type="submit" value="Enrol">
-</form>
+    <input type="submit" value="Enrol">
+  </form>
+</main>

@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 1rem 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 163, 227);
+}
+
+a:visited {
+  color: rgb(255, 163, 227);
+}
+
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(210, 23, 143);
+  font-size: 4rem;
+}
+
+.front-page {
+  text-align: center;
+}
+
+.student-list {
+  padding: 2rem 5rem;
+}
+
+.new-student {
+  padding: 2rem 5rem;
+}
